@@ -1,0 +1,8 @@
+// 基本的 样式
+
+/* 把 px 转化成 rem 的函数*/ 
+@function rem($px){
+    // 返回 rem 
+    @return $px/75px * 1rem;
+}
+

@@ -1,0 +1,22 @@
+@font-face {
+    font-family:font_pc;
+    src: url('./NotoSansCJK-Regular.otf') format('truetype'); 
+}
+@font-face {
+    font-family:font_b;
+    /* src: url('./NotoSansCJK-Bold.otf') format('truetype'); */
+    src: url('./NotoSansCJK-Regular.otf') format('truetype'); 
+}
+
+
+
+@font-face {
+    font-family:font_hz;
+    src: url('./hzzt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:sims;
+    src: url('simHei.ttf') format('truetype');
+}
+

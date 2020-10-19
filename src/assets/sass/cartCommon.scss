@@ -1,0 +1,246 @@
+.con_list_orde_con{
+    padding:0 ;
+    padding-bottom: rem(30px);
+    .con_list_orde_con-iltem{
+        width: 100%;
+        // height: rem(818px);
+        padding-bottom: rem(50px);
+        background:rgba(255,255,255,1);
+        box-shadow:0px rem(6px) rem(20px) rgba(0,0,0,0.05);
+        opacity:1;
+        // border-radius:rem(20px);
+        margin-top:rem(16px);
+        padding-left: rem(32px);
+        position: relative;
+        .order_title {
+            width: 100%;
+            height: rem(88px);
+            line-height: rem(88px);
+            font-size: rem(26px);
+            color: #E8C396;
+            border-bottom: rem(1px) solid #eee;
+        }
+        .order_body {
+            width: 100%;
+            box-sizing: border-box;
+            padding-top: rem(40px);
+            .order_item {
+                display: flex;
+                width: rem(665px);
+                height: rem(222px);
+                margin-bottom: rem(20px);
+                img {
+                    width: rem(222px);
+                    height: rem(222px);
+                    margin-right: rem(40px);
+                }
+                .order_info {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    h3 {
+                        font-size: rem(32px);
+                        margin-bottom: rem(16px);
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: rem(26px);
+                        color: #666;
+                        margin-bottom: rem(16px);
+                    }
+                    .order_price {
+                        position: absolute;
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        bottom: 0;
+                        img {
+                            width: rem(12px);
+                            height: rem(20px);
+                            // vertical-align: rem(1px);
+                            margin-right: rem(1px);
+                        }
+                        span {
+                            font-size: rem(32px);
+                            font-weight: 700;
+                        }
+                        i {
+                            text-decoration: none;
+                            font-weight: 700;
+                            font-size: rem(28px);
+                        }
+                    }
+                }
+            }
+            .order_pay {
+                display: flex;
+                justify-content: flex-end;
+                padding-right: rem(53px);
+                text-align: right;
+                margin-top: rem(50px);
+                span {
+                    font-size: rem(26px);
+                    color: #666;
+                    margin-right: rem(21px);
+                    &:nth-child(3) {
+                    color: #333;
+                    }
+                }
+            }
+            .order_footer {
+                margin-top: rem(40px);
+                display: flex;
+                justify-content: flex-end;
+                padding-right: rem(52px);
+                >div {
+                    min-width: rem(160px);
+                    height: rem(60px);
+                    line-height: rem(60px);
+                    text-align: center;
+                    padding: 0 rem(23px);
+                    font-size: rem(28px);
+                }
+                .btn1 {
+                    border: rem(1px) solid #999;
+                    margin-right: rem(20px);
+                    color: #999;
+                }
+                .btn2 {
+                    border: rem(1px) solid #DF544D;
+                    color: #DF544D;
+                }
+            }
+        }
+        // .icb{
+        //     display: flex;
+        //     height: rem(222px);
+        //     margin-top:rem(27px);
+        //     .con_list_orde_con-iltem_img{
+        //         width: rem(222px);
+        //         img{
+        //             display: block;
+        //             width: 100%;
+        //             height: 100%;
+        //         }
+        //     }
+        //     .mm_con_list{
+        //         padding-left: rem(40px);
+        //         flex:1;
+        //         .mm_con_list-title{
+        //             width: 100%;
+        //             height: rem(45px);
+        //             line-height: rem(45px);
+        //             display: flex;
+        //             strong{
+        //                 font-size:rem(32px);
+        //                 font-family:font_pc;
+        //                 font-weight:400;
+        //                 color:rgba(0,0,0,1);
+        //             }
+        //             span{
+        //                 margin-left:auto;
+        //                 font-size:rem(24px);
+        //                 font-family:font_pc;
+        //                 font-weight:400;
+        //                 color:rgba(203,72,72,1);
+        //             }
+        //         }
+        //         .p1{
+        //             margin-top:rem(4px);
+        //             height: rem(33px);
+        //             line-height: rem(33px);
+        //             font-size:rem(24px);
+        //             font-family:font_pc;
+        //             font-weight:400;
+        //             color:rgba(153,153,153,1);
+        //         }
+        //         .p2{
+        //             margin-top:rem(4px);
+        //             height: rem(33px);
+        //             line-height: rem(33px);
+        //             font-size:rem(24px);
+        //             font-family:font_pc;
+        //             font-weight:400;
+        //             color:rgba(153,153,153,1);
+        //         }
+        //         .pirce{
+        //             height: rem(40px);
+        //             line-height: rem(40px);
+        //             margin-top:rem(9px);
+        //             display: flex;
+        //             b{
+        //                 font-size:rem(28px);
+        //                 font-family:font_b;
+        //                 font-weight:bold;
+        //                 color:rgba(0,0,0,1);
+        //             }
+        //             span{
+        //                 margin-left:rem(15px);
+        //                 font-size:rem(20px);
+        //                 font-family:font_b;
+        //                 font-weight:bold;
+        //             }
+        //         }
+        //     }
+        // }
+        // .icb:nth-of-type(1){
+        //     margin-top:0;
+        // }
+        // .pice_liu{
+        //     margin-top:rem(24px);
+        //     height: rem(33px);
+        //     line-height: rem(33px);
+        //     display: flex;       
+        //     justify-content: flex-end;
+        //     span{
+        //         margin-left:rem(30px);
+        //         font-size:rem(24px);
+        //         font-family:font_pc;
+        //         font-weight:400;
+        //         color:rgba(153,153,153,1);
+        //     }    
+        //     span.c{
+        //         color:rgba(51,51,51,1);
+        //     } 
+        // }
+        // .btn_oee{
+        //     margin-top:rem(37px);
+        //     display: flex;
+        //     justify-content: flex-end;
+        //     .btn{
+        //         width:rem(160px);
+        //         height:rem(50px);
+        //         line-height:rem(48px);
+        //         background:rgba(255,255,255,1);
+        //         border:rem(1px) solid rgba(153,153,153,1);
+        //         border-radius:rem(25px);
+        //         font-family:font_pc;
+        //         font-weight:400;
+        //         text-align: center;
+        //         margin-left:rem(20px);
+        //         font-size:rem(28px);
+        //         max-height: 100%;
+        //     }
+        //     .btn:nth-last-of-type(1){
+        //         background:rgba(255,255,255,1);
+        //         border:rem(1px) solid rgba(203,72,72,1);
+        //         color:rgba(203,72,72,1);
+        //         font-family:font_pc;
+        //         font-weight:400;
+        //     }
+        // }
+        .zhuangtai{
+            position: absolute;
+            right: rem(24px);
+            top:rem(41.5px);
+            font-size:rem(24px);
+            font-family:font_pc;
+            font-weight:400;
+            color:rgba(203,72,72,1);
+        }
+    }
+    .con_list_orde_con-iltem:nth-of-type(1){
+        margin-top:rem(39px);
+        
+    }
+}

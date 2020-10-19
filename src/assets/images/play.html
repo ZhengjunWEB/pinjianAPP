@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+</head>
+<body>
+<video id="test" class="video-js vjs-default-skin vjs-big-play-centered">
+</video>
+<script src="https://media-cache.huaweicloud.com/video/hwplayer/1.4.0/lib/flv-1.4.2.min.js"></script>
+<script src="https://media-cache.huaweicloud.com/video/hwplayer/1.4.0/dist/hwplayer.js?flvjs=true"></script>
+<script>
+    hwplayerloaded(function () {
+        var player = new HWPlayer('test', {
+            controls: true,
+            width: 640,
+            height: 360,
+            autoplay: true,
+        });
+         player.src({ 
+            src: 'http://play.pinjianapp.com/live/room001.flv', //视频地址
+            type: 'video/flv' 
+         });
+    });
+</script>
+</body>
+</html>
